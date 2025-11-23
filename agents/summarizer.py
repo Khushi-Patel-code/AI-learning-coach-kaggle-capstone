@@ -1,30 +1,22 @@
-"""
-agents/summarizer.py
-Summarizes research results.
-"""
-
 from tools.summarizer_tool import SummarizerTool
-
 
 class Summarizer:
     def __init__(self):
-        self.summarizer = SummarizerTool()
+        self.tool = SummarizerTool()
 
-    def summarize(self, research_results: list) -> str:
-        """Summarizes all research results into one combined text."""
-        combined = ""
+    def summarize_research(self, research_results):
+        """
+        Called by Orchestrator.
+        Combine all research results & summarize them.
+        """
+        collected_text = ""
 
-        for p in research_results:
-            if "top_results" in p and len(p["top_results"]) > 0:
-                combined += f"Research for query: {p['query']}\n"
-                for r in p["top_results"]:
-                    combined += f"- {r}\n"
-                combined += "\n"
+        for step in research_results:
+            if isinstance(step, dict) and "top_results" in step:
+                collected_text += " ".join(step["top_results"]) + " "
 
-        if not combined.strip():
-            combined = "No meaningful research found."
+        return self.tool.summarize(collected_text)
 
-        return self.summarizer.summarize(combined)
-
-    def summarize_research(self, research_results: list) -> str:
-        return self.summarize(research_results)
+    # Optional: keep old method for compatibility
+    def summarize(self, research_results):
+        return self.summarize_research(research_results)

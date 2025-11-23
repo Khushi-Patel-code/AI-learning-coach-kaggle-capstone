@@ -1,5 +1,3 @@
-# agents/orchestrator.py
-
 class Orchestrator:
     """
     Main controller that coordinates Planner → Researcher → Summarizer → Coach.
@@ -72,7 +70,7 @@ class Orchestrator:
 
         # 4. COACHING ---------------------------------------------------
         self.log("Generating coaching insights...")
-        final_output = self.coach.generate_advice(plan, summary)
+        final_output = self.coach.create_output(user_goal, plan, summary)
         self.remember("last_output", final_output)
         self.log("Coaching step complete.")
 
