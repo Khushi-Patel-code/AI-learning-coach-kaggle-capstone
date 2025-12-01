@@ -1,4 +1,4 @@
-# 🧠 AI Learning Coach: The Personalized Study Planner Agent
+# AI Learning Coach: The Personalized Study Planner Agent
 ### Concierge Agents
 
 ##
