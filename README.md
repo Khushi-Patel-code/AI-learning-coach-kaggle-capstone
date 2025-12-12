@@ -51,6 +51,17 @@ The AI Learning Coach follows an **Orchestrator-driven pipeline** where speciali
 5.  **Coach:** Synthesizes the final plan and summary into a **motivational and actionable final output** for the user.
 6.  **Timetable Agent (Bonus Feature):** Takes the strategic plan and a user's pre-defined `free_slots` to generate a **personalized, time-specific daily schedule** for maximum efficiency.
 
+### System Execution Flow
+
+User Goal  
+→ Orchestrator  
+→ Planner (creates structured plan)  
+→ Researcher (collects supporting material)  
+→ Summarizer (condenses information)  
+→ Coach (generates guidance)  
+→ Timetable Agent (allocates time slots)  
+→ Final Output + Session Log
+
 ### **Key Concepts Applied**
 
 This project successfully implements the following required concepts:
