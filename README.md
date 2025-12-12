@@ -98,11 +98,107 @@ You must have Python 3.10+ installed (tested on Python 3.13).
     ```
 
 ### **Example Interaction**
+In the terminal use the following command to run the agent:
+```
+python main.py
+```
 
 When prompted, enter your goal:
 ```
 Enter your learning goal: exam on 3rd dec
 ```
+### ▶️ Sample Output
+
+```
+$ python main.py
+
+==============================
+   AI Learning Coach Agent
+==============================
+
+Enter your learning goal: exam on 3rd Dec
+
+Running AI Agent...
+
+[ORCH] Mission started for goal: 'exam on 3rd Dec'
+[ORCH] Generating study plan...
+[ORCH] Plan created.
+[ORCH] Searching the web for supporting material...
+[ORCH] Research complete.
+[ORCH] Summarizing the research...
+[ORCH] Summary complete.
+[ORCH] Generating coaching insights...
+[ORCH] Coaching step complete.
+[ORCH] Generating personalized timetable...
+[ORCH] Timetable generation complete.
+[ORCH] Mission complete.
+
+==============================
+         FINAL OUTPUT
+==============================
+
+
+----- MISSION -----
+exam on 3rd Dec
+
+----- SUMMARY -----
+Overview and background research related to Best way to prepare for exam on 3rd Dec exam. Important strategies, concepts, and techniques for Best way to prepare for exam on 3rd Dec exam. Overview and background research related to Important topics for exam on 3rd Dec exam.
+
+----- STEPS_EXPLAINED -----
+[
+  "Step 1: Day 1 --> Study Maths for 2 hours, Practice 20 questions, Revise notes for 30 minutes",     
+  "Step 2: Day 2 --> Study Reasoning for 2 hours, Practice 20 questions, Revise notes for 30 minutes", 
+  "Step 3: Day 3 --> Study English for 2 hours, Practice 20 questions, Revise notes for 30 minutes",   
+  "Step 4: Day 4 --> Study GK for 2 hours, Practice 20 questions, Revise notes for 30 minutes",        
+  "Step 5: Day 5 --> Study Maths for 2 hours, Practice 20 questions, Revise notes for 30 minutes",     
+  "Step 6: Day 6 --> Study Reasoning for 2 hours, Practice 20 questions, Revise notes for 30 minutes", 
+  "Step 7: Day 7 --> Study English for 2 hours, Practice 20 questions, Revise notes for 30 minutes",   
+  "Step 8: Final Revision --> Give full mock test, Analyze mistakes, Revise weak topics",
+  "Step 9: Best way to prepare for exam on 3rd Dec exam",
+  "Step 10: Important topics for exam on 3rd Dec exam",
+  "Step 11: Revision plan for exam on 3rd Dec exam"
+]
+
+----- COACHING -----
+For the mission 'exam on 3rd Dec', follow the steps above. Focus on the important concepts from the summary. Stay consistent and track your daily progress!
+
+----- TIMETABLE -----
+[
+  {
+    "time": "06:00 - 08:00",
+    "study_topic": "Best way to prepare for exam on 3rd Dec exam"
+  },
+  {
+    "time": "18:00 - 20:00",
+    "study_topic": "Important topics for exam on 3rd Dec exam"
+  },
+  {
+    "time": "21:00 - 22:30",
+    "study_topic": "Revision plan for exam on 3rd Dec exam"
+  }
+]
+
+==============================
+      SESSION INFORMATION
+==============================
+
+{'session_id': '2e3bff0f-64e3-41f1-a1d4-c44159084864', 'created_at': '2025-12-12T23:15:22.141177', 'messages_logged': 12}
+
+Session History:
+- 2025-12-12T23:15:31.716784: Mission started for goal: 'exam on 3rd Dec'
+- 2025-12-12T23:15:31.717040: Generating study plan...
+- 2025-12-12T23:15:31.717356: Plan created.
+- 2025-12-12T23:15:31.717512: Searching the web for supporting material...
+- 2025-12-12T23:15:31.717886: Research complete.
+- 2025-12-12T23:15:31.718109: Summarizing the research...
+- 2025-12-12T23:15:31.718423: Summary complete.
+- 2025-12-12T23:15:31.718664: Generating coaching insights...
+- 2025-12-12T23:15:31.719284: Coaching step complete.
+- 2025-12-12T23:15:31.719667: Generating personalized timetable...
+- 2025-12-12T23:15:31.719992: Timetable generation complete.
+- 2025-12-12T23:15:31.720207: Mission complete.
+```
+
 
 ## 💡 6. Bonus Features
 
