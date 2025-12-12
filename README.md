@@ -24,7 +24,20 @@ The **AI Learning Coach** is a multi-agent system designed to act as a virtual, 
 
 Our system provides **clear, meaningful value** by centralizing and automating the four critical tasks of study preparation: **Planning, Research, Synthesis, and Scheduling.**
 
-## 🛠️ 3. Architecture Overview (Implementation & Documentation)
+## 🤖 3. Why a Multi-Agent Approach?
+
+A single monolithic agent struggles with modularity, explainability, and extensibility.
+
+This project adopts a **multi-agent architecture** to:
+- Improve **separation of concerns**
+- Allow **independent agent upgrades**
+- Enable **clear reasoning traces** via session logs
+- Support future expansion (e.g., quiz agent, progress tracker)
+
+Each agent specializes in one cognitive task, mirroring real-world study workflows.
+
+
+## 🛠️ 4. Architecture Overview (Implementation & Documentation)
 
 The AI Learning Coach follows an **Orchestrator-driven pipeline** where specialized sub-agents perform sequential tasks, leveraging **Memory** and **Session** services for state management.
 
@@ -49,11 +62,11 @@ This project successfully implements the following required concepts:
 | **Memory** | The `MemoryService` is used by the `Orchestrator` to recall and store key outputs (`last_plan`, `last_summary`) for potential future context and refinement. |
 | **Statefulness** | The `SessionService` maintains a full log of every step, timestamp, and message, providing a complete audit trail for the mission. |
 
-## 🚀 4. Setup and Execution
+## 🚀 5. Setup and Execution
 
 ### **Prerequisites**
 
-You must have Python 3.x installed.
+You must have Python 3.10+ installed (tested on Python 3.13).
 
 ### **Setup Instructions**
 
@@ -80,12 +93,12 @@ When prompted, enter your goal:
 Enter your learning goal: exam on 3rd dec
 ```
 
-## 💡 5. Bonus Features
+## 💡 6. Bonus Features
 
 * **Timetable Agent:** A dedicated agent that translates abstract study steps into a concrete, time-blocked schedule based on user-provided free time slots.
 * **Integrated Session Logging:** The `SessionService` provides complete transparency into the agent's decision-making process.
 
-## ✍️ 6. Code Structure
+## ✍️ 7. Code Structure
 
 ```
 Kaggle-Capstone-AI-Agent/
