@@ -123,5 +123,8 @@ Kaggle-Capstone-AI-Agent/
         └── summarizer_tool.cpython-313.pyc
 ```
 
-## 👥 Authors
+## 👥 Authors (Team: 404 Found)
+
+- Khushi Patel
+- Aadhya Patel
 
