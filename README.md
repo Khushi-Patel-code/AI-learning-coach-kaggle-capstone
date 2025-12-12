@@ -257,7 +257,7 @@ Kaggle-Capstone-AI-Agent/
 - Add reminder & notification agent
 - Web or GUI-based interface
 
-## 👥 Authors (Team: 404 Found)
+## 👥 9. Authors (Team: 404 Found)
 
 - Khushi Patel
 - Aadhya Patel
