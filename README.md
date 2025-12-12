@@ -121,3 +121,6 @@ Kaggle-Capstone-AI-Agent/
         ├── google_search_tool.cpython-313.pyc
         └── summarizer_tool.cpython-313.pyc
 ```
+
+## 👥 Authors
+
