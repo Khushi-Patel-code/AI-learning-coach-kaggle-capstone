@@ -74,7 +74,6 @@ This project successfully implements the following required concepts:
 | **Statefulness** | The `SessionService` maintains a full log of every step, timestamp, and message, providing a complete audit trail for the mission. |
 
 
-
 ## 🚀 5. Setup and Execution
 
 ### **Prerequisites**
