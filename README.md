@@ -41,7 +41,6 @@ Each agent specializes in one cognitive task, mirroring real-world study workflo
 
 The AI Learning Coach follows an **Orchestrator-driven pipeline** where specialized sub-agents perform sequential tasks, leveraging **Memory** and **Session** services for state management.
 
-
 ### **Agent Pipeline:**
 
 1.  **Orchestrator (The Controller):** Manages the flow, logs progress via `SessionService`, and saves key artifacts via `MemoryService`.
