@@ -207,7 +207,7 @@ Session History:
 
 ## ✍️ 7. Code Structure
 
-`
+```
 Kaggle-Capstone-AI-Agent/
 ├── main.py
 ├── README.md
