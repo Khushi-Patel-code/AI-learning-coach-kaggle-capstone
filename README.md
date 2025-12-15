@@ -244,7 +244,6 @@ Kaggle-Capstone-AI-Agent/
 ```
 
 
-
 ## ⚠️ 8. Limitations & Future Work
 
 ### Current Limitations
