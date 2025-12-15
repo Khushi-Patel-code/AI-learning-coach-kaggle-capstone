@@ -102,7 +102,6 @@ In the terminal use the following command to run the agent:
 ```
 python main.py
 ```
-
 When prompted, enter your goal:
 ```
 Enter your learning goal: exam on 3rd dec
