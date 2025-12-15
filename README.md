@@ -199,7 +199,6 @@ Session History:
 - 2025-12-12T23:15:31.720207: Mission complete.
 ```
 
-
 ## 💡 6. Bonus Features
 
 * **Timetable Agent:** A dedicated agent that translates abstract study steps into a concrete, time-blocked schedule based on user-provided free time slots.
