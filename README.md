@@ -62,6 +62,8 @@ User Goal
 → Timetable Agent (allocates time slots)  
 → Final Output + Session Log
 
+
+
 ### **Key Concepts Applied**
 
 This project successfully implements the following required concepts:
