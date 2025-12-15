@@ -63,7 +63,6 @@ User Goal
 → Final Output + Session Log
 
 
-
 ### **Key Concepts Applied**
 
 This project successfully implements the following required concepts:
