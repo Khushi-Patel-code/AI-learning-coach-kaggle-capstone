@@ -73,7 +73,6 @@ This project successfully implements the following required concepts:
 | **Memory** | The `MemoryService` is used by the `Orchestrator` to recall and store key outputs (`last_plan`, `last_summary`) for potential future context and refinement. |
 | **Statefulness** | The `SessionService` maintains a full log of every step, timestamp, and message, providing a complete audit trail for the mission. |
 
-
 ## 🚀 5. Setup and Execution
 
 ### **Prerequisites**
