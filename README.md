@@ -8,8 +8,6 @@
 **Khushi Patel**
 **Aadhya Patel**
 
-
-
 ## 🎯 1. The Problem (The Pitch: Core Concept & Value)
 
 The biggest challenge for self-learners preparing for competitive exams is **creating an effective, personalized, and actionable study plan** that adapts to their specific time constraints and knowledge gaps.
