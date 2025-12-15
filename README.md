@@ -36,7 +36,6 @@ This project adopts a **multi-agent architecture** to:
 
 Each agent specializes in one cognitive task, mirroring real-world study workflows.
 
-
 ## 🛠️ 4. Architecture Overview (Implementation & Documentation)
 
 The AI Learning Coach follows an **Orchestrator-driven pipeline** where specialized sub-agents perform sequential tasks, leveraging **Memory** and **Session** services for state management.
