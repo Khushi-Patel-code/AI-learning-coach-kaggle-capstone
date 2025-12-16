@@ -22,7 +22,6 @@ The **AI Learning Coach** is a multi-agent system designed to act as a virtual, 
 
 Our system provides **clear, meaningful value** by centralizing and automating the four critical tasks of study preparation: **Planning, Research, Synthesis, and Scheduling.**
 
-
 ## 🤖 3. Why a Multi-Agent Approach?
 
 A single monolithic agent struggles with modularity, explainability, and extensibility.
